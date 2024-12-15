@@ -288,8 +288,7 @@ ul {
 }
 
 .social-link:hover,
-.social-link:visited,
-.social-link:active {
+.social-link.button-primary:focus {
   background-color: var(--hover-color);
 }
 
@@ -450,10 +449,7 @@ ul {
   gap: 16px;
 }
 
-.social-link-footer:hover {
-  background-color: #31d0aa;
-}
-
-.social-link-footer:active {
+.social-link-footer:hover,
+.social-link-footer:focus {
   background-color: #31d0aa;
 }
